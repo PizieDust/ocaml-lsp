@@ -23,6 +23,13 @@ interface config {
   codelens: { enable : boolean }
 
   /**
+  * Enable/Disable Syntax Documentation
+  * @default false
+  * @since 1.18
+  */
+  syntaxDocumentation: { enable : boolean }
+
+  /**
   * Enable/Disable Dune diagnostics
   * @default true
   * @since 1.18

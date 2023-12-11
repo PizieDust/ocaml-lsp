@@ -6,6 +6,10 @@
   called `duneDiganostics` and it may be set to `{ enable: false }` to disable
   diagnostics. (#1221)
 
+- Includes a new optional/configurable option to toggle syntax documentation. If
+  toggled on, allows display of sytax documentation on hover tooltips. Can be
+  controlled via environment variables and by GUI for VS code. (#1218)
+
 - Support folding of `ifthenelse` expressions (#1031)
 
 # 1.17.0
